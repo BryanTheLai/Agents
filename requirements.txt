@@ -1,5 +1,4 @@
-langgraph 
-langchain-google-genai 
 geopy 
 requests
 google-genai
+pandas 
