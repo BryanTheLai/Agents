@@ -1,4 +1,6 @@
-geopy 
-requests
-google-genai
-pandas 
+geopy==2.4.1
+requests==2.32.3
+google-genai==1.15.0
+pandas==2.2.3
+google-adk==0.5.0
+poetry==1.8.4
