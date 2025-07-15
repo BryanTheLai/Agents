@@ -15,6 +15,8 @@ This project showcases the architectural patterns required to build robust, scal
 
 The following diagram illustrates the implemented workflows, orchestrated by a central router that selects the appropriate pattern based on the user's query.
 
+![Agentic Pattern](https://github.com/BryanTheLai/LLM-Stuff/blob/main/assets/agentic-patterns/agentic_pattern.png)
+
 ```graphviz
 digraph AgenticPatterns {
   rankdir=LR;
@@ -122,6 +124,8 @@ This project demonstrates the process of specializing a compact, general-purpose
 ### Fine-Tuning Process
 
 The workflow emphasizes efficiency and modern best practices, from data preparation to model deployment.
+
+![Fine-tuning WikiSQL](https://github.com/BryanTheLai/LLM-Stuff/blob/main/assets/fine_tuning_wikiSQL.png)
 
 ```graphviz
 digraph FineTuning {
