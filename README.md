@@ -111,6 +111,8 @@ digraph AgenticPatterns {
         3.  `Task`: Outline the blog post structure. `Assignee`: Writer.
         4.  `Task`: Write each section with examples. `Assignee`: Writer.
 
+[Basic AI patterns with gemini](https://github.com/philschmid/gemini-samples/blob/832cb1cb2528565d6a620d1ae45e2efdd1760207/guides/agentic-pattern.ipynb)
+
 ---
 
 ## 2. Fine-Tuning a Llama 3.2 Model for Text-to-SQL
