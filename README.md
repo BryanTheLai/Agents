@@ -17,9 +17,13 @@ The following diagram illustrates the implemented workflows, orchestrated by a c
 
 ![Agentic Pattern](https://github.com/BryanTheLai/LLM-Stuff/blob/main/assets/agentic-patterns/agentic_pattern.png)
 
+<details>
+<summary>Show Graphviz code for Agentic Patterns Diagram</summary>
+
 ```graphviz
 digraph AgenticPatterns {
   rankdir=LR;
+  graph [fontname="Helvetica"];
   node [shape=box, style="rounded,filled", fillcolor=lightblue, fontname="Helvetica"];
   edge [fontname="Helvetica", fontsize=10];
   
@@ -70,6 +74,8 @@ digraph AgenticPatterns {
   {PromptChaining, Reflection, Parallelization, ToolUse, Orchestrator} -> FinalOutput;
 }
 ```
+
+</details>
 
 ### Patterns Demonstrated
 
@@ -127,6 +133,9 @@ The workflow emphasizes efficiency and modern best practices, from data preparat
 
 ![Fine-tuning WikiSQL](https://github.com/BryanTheLai/LLM-Stuff/blob/main/assets/fine_tuning_wikiSQL.png)
 
+<details>
+<summary>Show Graphviz code for Fine-Tuning Process Diagram</summary>
+
 ```graphviz
 digraph FineTuning {
   rankdir=TB;
@@ -175,6 +184,8 @@ digraph FineTuning {
   SFTTrainer -> FineTunedModel;
 }
 ```
+
+</details>
 
 ### Key Techniques & Rationale
 
